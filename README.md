@@ -1,3 +1,4 @@
+MacOS
 1. Install Homebrew (macOS only)
 
 If you don’t have Homebrew, run:
@@ -39,3 +40,57 @@ Confirm to apply.
 8. Check current settings
 
 Choose option 2 to see the current refresh rate and swap interval.
+
+
+
+-------------------------------------------------------------------------------
+Windows
+1. Install ADB
+
+If you don’t have ADB installed, download Platform Tools from Google:
+
+https://developer.android.com/studio/releases/platform-tools
+
+Extract the zip somewhere (e.g., C:\adb)
+
+Add the folder to your System PATH (so you can run adb from any terminal)
+
+Check it works:
+
+adb version
+
+2. Download Quest Tool
+git clone https://github.com/freseelliot84-dotcom/gunlocked.git
+cd gunlocked
+
+
+If you don’t have Git, you can also download the ZIP from GitHub and extract it.
+
+3. Run the tool
+
+Open Command Prompt or PowerShell in the gunlocked folder.
+
+Run:
+
+quest-tool.bat
+
+
+This is a Windows batch version of quest-tool.sh that works the same way.
+
+4. Connect Quest wirelessly (optional)
+
+Connect your Quest via USB at least once.
+
+Choose option 3 in the menu. The tool will automatically detect your Quest IP and enable Wi-Fi ADB.
+
+5. Set FPS / Swap Interval
+
+Choose option 1 in the menu.
+
+Pick a preset or custom FPS (1–200) and a swap interval (0–5).
+
+Confirm to apply.
+
+6. Check current settings
+
+Choose option 2 to see your Quest’s refresh rate and swap interval.
