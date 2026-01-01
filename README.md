@@ -1,4 +1,3 @@
-Quick Start – Quest Tool
 1. Install Homebrew (macOS only)
 
 If you don’t have Homebrew, run:
@@ -14,8 +13,8 @@ Check that ADB works:
 adb version
 
 3. Download Quest Tool
-git clone https://github.com/YourUsername/quest-tool.git
-cd quest-tool
+git clone https://github.com/freseelliot84-dotcom/gunlocked.git
+cd gunlocked
 
 4. Make the script executable
 chmod +x quest-tool.sh
